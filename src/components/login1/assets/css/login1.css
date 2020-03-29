@@ -1,0 +1,38 @@
+.body-top{
+	    min-height: 192px;
+	    position: relative;
+	    z-index: 1;
+	    padding-top: 36px;
+	}
+	.body-top-middle{
+	    position: absolute;
+	    top: 50%;
+	    left: 94px;
+	    z-index: 2;
+	    margin-top: -70px;
+	    padding: 10px;
+	    width: 150px;
+	    height: 150px;
+	    background-color: #fff;
+	    border: 1px solid #f0f0f0;
+	}
+	.body-bottom{
+	    margin-top: 20px;
+	    color: #333;
+	    line-height: 16px;
+	    text-align: center;
+	    /* font: 12px/1.5; */
+	}
+	.body-bottom span:nth-child(1){
+	    display: inline-block;
+	    margin-right: 6px;
+	    background-image: url(../images/spirit.png);
+	    background-position: -605px -121px;
+	    width: 16px;
+	    height: 16px;
+	    vertical-align: top;
+	}
+	.body-bottom span:nth-child(2){
+	    color: #f10180;
+	    line-height: 16px;
+	}

@@ -1,0 +1,92 @@
+.beijing{
+	    background-image: url(../images/beijing.jpg);
+	    /* margin-top: 43px; */
+	    background-repeat: no-repeat;
+	    /* position: relative; */
+	    background-position: -44px 0;
+	    padding-top: 30px;
+	    padding-bottom: 20px;
+	    
+	}
+	.wrap{
+	position: relative;
+	    width: 1000px;
+	    height:
+	     393px;background:rgba(255,255,255,0.5);
+	     margin:0px auto;
+	    padding:12px 12px 0;
+	box-sizing:border-box;
+	box-shadow:0 0 10px rgba(0,0,0,0.4);
+	overflow: hidden
+	}
+	.wrapUp{width: 976px;height: 338px;position: relative;}
+	.wrapUp li{position:absolute;left:0;top:0;display: none;}
+	.wrapUp .cur{display: block;}
+	/*盒子两边箭头样式*/
+	.wrapUp .btn{width: 33px;height: 66px;background:rgba(0,0,0,0.2);
+	position: absolute;color:#ffffff;font-size: 40px;line-height: 66px;text-align: center;
+	    font-family:"黑体";border-radius:5px;top:50%;transform:translateY(-50%);cursor: pointer;transition:0.3s}
+	/*盒子左箭头样式*/
+	.wrapUp .left{left: -45px}
+	.wrapUp .right{right: -45px}
+	/*盒子移入显示*/
+	.wrap:hover .wrapUp .left{left:0}
+	.wrap:hover .wrapUp .right{right:0}
+	/*盒子不透明度变化*/
+	.wrapUp .btn:hover{background:rgba(0,0,0,0.4);}
+	
+	
+	/*大盒子下部分标题样式*/
+	.wrapDown{width: 400px;height: 40px;margin:0 auto;position: relative}
+	/*大盒子下部分内容li样式*/
+	.wrapDown li{width: 200px;height: 40px;font-size: 15px;line-height: 40px;float: left;text-align: center;color: #666666;position: relative;cursor: pointer}
+	/*每个li后面的分割线样式*/
+	
+	.wrapDown li:after{content:"|";position: absolute;right: 0;top:0;color: #cccccc}
+	/*设置第一个li字样式*/
+	.wrapDown .cur{color:red;}
+	/*最后一个li不需要分割线*/
+	.wrapDown li:last-child:after{display: none}
+	/*底部红色下划线相对于底部盒子定位*/
+	.wrapDown .line{width: 200px;height: 2px;background:deeppink;left: 0;bottom:-1px;position: absolute}
+	.banner-con{
+	    padding-bottom: 0;
+	    padding: 12px;
+	    background: rgba(255, 255, 255, .86);
+	    background-color: #fff;
+	    width: 976px;
+	    position: relative;
+	    margin: 0 auto;
+	    box-shadow: 0 1px 3px rgba(167, 167, 167, .4);
+	    left: 30px;
+	}
+	.banner-con-in{
+	    /* width: 1948px; */
+	    border-bottom: none;
+	    height: 340px;
+	    margin: 0 auto;
+	    position: relative;
+	    overflow: hidden;
+	}
+	.banner-con-in .list{
+	    z-index: 1;
+	    /* overflow: hidden; */
+	    height: 340px;
+	    width: 1950px;
+	    position: relative;
+	}
+	.banner-con-in .list li{
+	    position: absolute;
+	    top: 0;
+	    left: 0px;
+	    opacity: 1;
+	}
+	.banner-con-in .list li:nth-child(1){
+	    z-index: 2;
+	}
+	.banner-con-in .list li:nth-child(2){
+	    z-index: 1;
+	}
+	.banner-con-in .list .l-li1{
+	opacity: 0;    
+	}

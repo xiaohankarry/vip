@@ -1,0 +1,188 @@
+#c-header{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    zoom: 1;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    float: left;
+}
+.c-logo{
+    width: 125px;
+    height: 100px;
+    display: inline-block;
+    text-indent: -9999px;
+    background-position: -308px -57px;
+    background-image: url(../images/spirit.png);
+}
+.service{
+    background-image: url(../images/spirit.png);
+    background-position: 0 0;
+    width: 304px;
+    height: 100px;
+    float: right;
+}
+#middle{
+    height: 650px;
+   background-position: top center;
+   background-repeat: no-repeat;
+    background-image: url(../images/login.jpg);
+}
+.c-middle{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 20px;
+    min-height: 550px;
+    width: 1000px;
+}
+.c-middle-right{
+    width: 360px;
+    border-radius: 2px;
+    background-color: #fff;
+    float: right;
+}
+.middle-right-header{
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.middle-right-header h3{
+    color: #666;
+    font-size: 18px;
+    font-weight: 600;
+}
+.middle-right-header div{
+    float: right;
+    font-size: 14px;
+}
+.middle-right-header div>a{
+    color: #f10180;
+}
+.active{
+	color: #f10180;
+}
+.middle-right-body{
+    padding: 30px;
+}
+.body-form{
+    text-align: left;
+}
+.form-tip{
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    min-height: 19px;
+    max-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    display: block;
+}
+
+.form-input1{
+    position: relative;
+    vertical-align: top;
+}
+.input1{
+    padding-left: 40px;
+    width: 250px;
+    height: 43px;
+    line-height: 32px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    outline: 0;
+}
+.input2{
+    width: 106px;
+    margin-right: 10px;
+    height: 43px;
+    line-height: 32px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    outline: 0;
+    padding-left: 40px;
+}
+
+.c-icon{
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    z-index: 1;
+    background-image: url(../images/spirit.png);
+    background-position: -456px -221px;
+    width: 20px;
+    height: 20px;
+}
+.c-icon1{
+    background-position: -480px -221px;
+}
+.code{
+    display: inline-block;
+    text-align: center;
+    padding: 0 12px;
+    width: 106px;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #d0d0d0;
+    color: #999;
+    background: #d0d0d0;
+    border-radius: 3px;
+    min-width: 90px;
+}
+.c-icon2{
+    background-position: -528px -221px;
+}
+.c-icon3{
+    background-position: -528px -221px;
+}
+.u-provision-txt {
+    vertical-align: middle;
+    font-size: 12px;
+    display: inline-block;
+    width: 276px;
+    line-height: 1.5;
+}
+.u-link {
+    color: #1d94d1;
+}
+.control-group{
+    margin-bottom: 30px;
+}
+.reg-form-btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    width: 298px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4px;
+    background-color: #f10180;
+}
+#footer{
+    width: 1000px;
+    height: 78px;
+    line-height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright{
+    text-align: center;
+    color: #666;
+}

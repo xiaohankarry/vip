@@ -1,0 +1,116 @@
+.c-nav{
+    position: relative;
+    height: 30px;
+    line-height: 27px;
+    background-color: #f5f5f5;
+    color: #777;
+}
+.c-nav-body{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+    height: 27px;
+}
+.c-nav-site{
+    position: relative;
+    z-index: 1;
+    padding-left: 15px;
+    padding-right: 23px;
+    width: 46px;
+    height: 27px;
+    cursor: pointer;
+    border-width: 1px 1px 0;
+    border-style: solid;
+    border-color: #f5f5f5;
+    float: left;
+}
+.c-nav-site>span{
+    line-height: 27px;
+}
+.c-nav-trigon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-color: #999 transparent transparent transparent;
+    border-style: solid dashed dotted dashed;
+    vertical-align: top;
+}
+.c-nav-body>ul{
+    float: right;
+}
+.c-nav-body>ul li{
+    float: left;
+    position: relative;
+}
+.c-nav-body>ul li a{
+    color: #666;
+}
+.c-li1{
+    margin-right: 15px;
+}
+.c-li1::after{
+    background-image: url(../image/sprites-index.png);
+    background-position: -270px -184px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: -18px;
+    z-index: 1;
+    content: '';
+}
+.c-li2{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.c-li2::after,.c-li3::after,.c-li4::after,.c-li5::after,.c-li6::after,.c-li7::after,.c-li8::after{
+    background-image: url(../image/sprites-index.png);
+    background-position: -270px -184px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: -5px;
+    z-index: 1;
+    content: '';
+}
+.c-li3,.c-li4,.c-li5,.c-li6,.c-li7,.c-li8,.c-li9{
+    padding-left: 10px;
+    padding-right: 17px;
+}
+.c-li3-gift{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    background: url(../image/gift.gif) no-repeat;
+    margin-right: 3px;
+}
+.c-li8-phone{
+    display: inline-block;
+    background-image: url(../image/sprites-index.png);
+    background-position: -294px -142px;
+    width: 10px;
+    height: 14px;
+    margin-left: 1px;
+    margin-right: 3px;
+    margin-top: -3px;
+    vertical-align: middle;
+
+}
+.c-li9-trigon{
+    display: inline-block;
+    margin-top: 5px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    vertical-align: middle;
+    border-width: 4px;
+    border-color: #999 transparent transparent transparent;
+    border-style: solid dashed dotted dashed;
+}

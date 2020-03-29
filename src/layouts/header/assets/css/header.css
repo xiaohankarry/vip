@@ -1,0 +1,185 @@
+.c-logo{
+    height: 100px;
+    background-color: #fff;
+	margin: 0 auto;
+}
+.c-logo-middle{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+}
+.c-logo-first{
+    position: relative;
+    z-index: 1;
+    margin-right: 1px;
+    min-width: 140px;
+    height: 100px;
+    float: left;
+}
+.c-logo-two{
+    float: left;
+    position: relative;
+    z-index: 1;
+    width: 304px;
+    height: 100px;
+}
+.a1{
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    width: 101px;
+    height: 100px;
+    background: url(../images/blank.png) repeat 0 0;
+}
+.a2{
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    width: 101px;
+    height: 100px;
+    background: url(../images/blank.png) repeat 0 0;
+}
+.a3{
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    width: 90px;
+    height: 100px;
+    background: url(../images/blank.png) repeat 0 0;
+}
+.img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.c-logo-search{
+    float: left;
+    position: relative;
+    margin-top: 33px;
+    margin-left: 33px;
+    width: 391px;
+}
+.c-search-form{
+    position: relative;
+    z-index: 2;
+    width: 387px;
+    height: 32px;
+    border: 2px solid #fa2a83;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.c-search-txt{
+    padding: 2px 12px;
+    width: 311px;
+    height: 28px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #fff;
+    border: 0;
+}
+.c-search-a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 6px;
+    width: 53px;
+    height: 26px;
+    text-align: center;
+    background-color: #fa2a83;
+}
+.c-search-a>span{
+    background-image: url(../images/sprites-index.png);
+    background-position: -72px -208px;
+    width: 19px;
+    height: 22px;
+    display: inline-block;
+}
+ul{
+    margin:2px;
+    /* overflow: hidden; */
+}
+.c-search-nav ul li{
+    float: left;
+}
+.c-search-nav ul li>a{
+    color: #999;
+  margin-left: 6px;
+}
+.c-search-nav ul li>span{
+    margin-left:6px ;
+    color: #ccc;
+}
+.box{
+    position: relative;
+    z-index: 9;
+    margin-left: 15px;
+    float:right;
+    margin-top: 33px;
+    width: 96px;
+
+}
+.c-logo-tool{
+    position: relative;
+    z-index: 1;
+    padding-right: 33px;
+    padding-left: 25px;
+    width: 36px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f6f7f9;
+    border-radius: 2px;
+}
+.c-logo-tool>a{
+    color: #333;
+}
+.c-logo-tool .bag{
+    background-image: url(../images/sprites-index.png);
+    background-position: -114px -208px;
+    width: 12px;
+    height: 17px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+}
+.c-logo-tool .number{
+    position: absolute;
+    top: 8px;
+    right: 3px;
+    z-index: 1;
+    border-radius: 8px;
+    height: 16px;
+    width: 24px;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #f00581;
+}
+.c-logo-bottom{
+    clear: both;
+    position: relative;
+    height: 43px;
+    line-height: 43px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #fff;
+}
+.main-nav-be-fixedtrans {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    top: 0;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    box-shadow: 0 1px 3px 0 #a7a7a7;
+
+}

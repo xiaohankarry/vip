@@ -1,0 +1,197 @@
+#c-header{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    zoom: 1;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    float: left;
+}
+.c-logo{
+    width: 125px;
+    height: 100px;
+    display: inline-block;
+    text-indent: -9999px;
+    background-position: -308px -57px;
+    background-image: url(../images/spirit.png);
+}
+.service{
+    background-image: url(../images/spirit.png);
+    background-position: 0 0;
+    width: 304px;
+    height: 100px;
+    float: right;
+}
+#middle{
+   background-position: top center;
+   background-repeat: no-repeat;
+    background-image: url(../images/login.jpg);
+}
+.c-middle{
+    width: 1000px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+}
+.c-middle-right{
+    width: 360px;
+    height: 500px;
+    border-radius: 2px;
+    background-color: #fff;
+    float: right;
+}
+.right-nav{
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0;
+}
+.nav-left{
+   color: #f10180;
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    vertical-align: top;
+    float: left;
+}
+.nav-left-qr::after{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    z-index: 1;
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+    content: '';
+    font-size: 0;
+    line-height: 0;
+}
+.nav-right{
+    width: 180px;
+    vertical-align: top;
+    text-align: center;
+    color: #666;
+    font-weight: 600;
+    line-height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 18px;
+}
+.right-footer{
+    padding: 0 30px;
+}
+.right-min-footer{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    zoom: 1;
+}
+.min-footer-top{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.min-footer-top::before{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    z-index: 2;
+    width: 60px;
+    height: 40px;
+    content: '';
+    background-color: #fff;
+}
+.min-footer-top>div{
+    position: relative;
+    z-index: 2;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+}
+.min-footer-top>div>a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.min-footer-top .wei-icon{
+    background-image: url(../images/spirit.png);
+    background-position: -580px -161px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+.min-footer-top::after{
+    position: absolute;
+    z-index: 1;
+    content: '';
+    top: 20px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.min-footer-bottom>ul li{
+    float: left;
+    position: relative;
+    padding: 0 11px 0 10px;
+    line-height: 24px;
+}
+.min-footer-bottom>ul li:nth-child(1) a{
+    color: #999;
+}
+.min-footer-bottom>ul li:nth-child(1) a::after{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    margin-top: -5px;
+    height: 10px;
+    content: '';
+    border-left: 1px solid #e0e0e0;
+}
+.min-footer-bottom>ul li:nth-child(2) a,.min-footer-bottom>ul li:nth-child(3) a{
+    color: #333;
+}
+.min-footer-bottom>ul li:nth-child(2) a::after{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    margin-top: -5px;
+    height: 10px;
+    content: '';
+    border-left: 1px solid #e0e0e0;
+}
+.more{
+    margin-left: 20px;
+    color: #999;
+    display: inline-block;
+    line-height: 24px;
+}
+.min-footer-bottom .free{
+    position: relative;
+    z-index: 2;
+    color: #333;
+    line-height: 24px;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 29px;
+}
+.min-footer-bottom .free:hover{
+    color: #f10180;
+}

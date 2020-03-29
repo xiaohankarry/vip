@@ -1,0 +1,145 @@
+.enlarge{
+    width:400px;
+    height: 500px;
+    position: absolute;
+    top: 190px;
+    left: 177px;
+    float:left;
+}
+.detail{
+    float:left;
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    width: 550px;
+}
+.clearfix{
+    clear:both;
+}
+.clearfix+p,.clearfix+p+p{
+    margin-left:50px;
+}
+.d-p1{
+    display: block;
+    color: #007cff;
+    width: 340px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 22px;
+    min-height: 22px;
+}
+.introduce{
+    font-size: 16px;
+    color: #333;
+    max-height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.s-txt{
+    width: 550px;
+    height: 101px;
+    background-color: #f9f9f9;
+    padding-left: 20px;
+
+}
+.d-p2{
+    width: 550px;
+   
+}
+.d-p2 .sp-title{
+    font-size: 14px;
+    background: #de3d96;
+    border-radius: 32.5px;
+    padding: 2px 8px;
+    margin-top: 18px;
+    color: #fff;
+    display: inline-block;
+    max-width: 90px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ 
+    
+}
+.d-p2 .price{
+    font-size: 38px;
+    font-family: arial;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* float: left; */
+    display: inline-block;
+    text-align: center;
+    margin-top: 8px;
+    height: 35px;
+}
+i{
+    margin: 13px 0 0 8px;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+}
+.in-p{
+    font-size: 16px;
+    color: #666;
+}
+.address,.yunfei,.chima{
+    width: 550px;
+    height: 32px;
+    margin: 10px 0;
+}
+.address>span,.yunfei span{
+    font-size: 12px;
+    width: 40px;
+    text-align: left;
+    color: #999;
+    line-height: 32px;
+    overflow: hidden;
+}
+.address>input{
+    margin-top: 6px;
+}
+.yunfei span:nth-child(2){
+    color: #333;
+    width: 200px;
+}
+.chima span:nth-child(1){
+    font-size: 12px;
+    width: 40px;
+    text-align: left;
+    color: #999;
+    line-height: 32px;
+    overflow: hidden;
+}
+.chima>span{
+    float: left;
+}
+.chima .nubmer{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 26px;
+    border: 1px solid #333;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 26px;
+}
+.nubmer:hover{
+    border: 1px solid #f00581;
+}
+.addCart,.goCart{
+    background-color: #f00581;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    border: none;
+    font-size: 23px;
+    border-radius: 5px;
+}

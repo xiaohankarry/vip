@@ -1,0 +1,48 @@
+.wrapper{
+    background: #fff center top no-repeat;
+}
+.line-wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 34px;
+	z-index: 1;
+}
+.wrap_content{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.list-fav{
+    border-bottom: none;
+    position: relative;
+    height: 26px;
+    line-height: 26px;
+    padding: 10px 10px 10px 0;
+    background-color: #fff;
+    z-index: 11;
+}
+.fav-name{
+    font-size: 18px;
+    float: left;
+    color: #333;
+}
+.fav-name dt{
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 20px;
+    max-width: 214px;
+}
+.fav-name dd{
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-inline-start: 40px;
+}
+.fav-name .salebg2{
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
